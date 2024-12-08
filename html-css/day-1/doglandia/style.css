@@ -1,6 +1,14 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 header {
-  background-color: greenyellow;
+  background-color: yellowgreen;
   padding: 15px;
+  text-align: center;
 }
 
 nav {
@@ -10,11 +18,27 @@ nav {
 
 a {
   padding: 10px;
-  text-decoration: none;
   font-size: 20px;
+  text-decoration: none;
+  color: rgb(4, 31, 230);
+}
+
+ul {
+  list-style: none;
+}
+
+/* Main Image */
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 70vh;
+  background-color: #f4f4f4;
 }
 
 #dogs-main {
   width: 100%;
-  height: 50%;
+  height: 100%;
+  object-fit: cover;
 }
