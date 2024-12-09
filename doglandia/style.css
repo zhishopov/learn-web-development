@@ -31,14 +31,20 @@ ul {
 .main {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  height: 70vh;
-  background-color: #f4f4f4;
+  align-items: flex-end;
+  position: relative;
 }
 
 #dogs-main {
   width: 100%;
-  height: 100%;
+  height: 70vh;
   object-fit: cover;
+}
+
+.dog-greeting {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background-color: yellowgreen;
+  padding: 20px;
 }
