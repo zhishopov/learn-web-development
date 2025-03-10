@@ -16,7 +16,7 @@ body {
 }
 
 footer {
-  background-color: white;
+  background: radial-gradient(circle, blue, green);
   margin-top: 20px;
 }
 
@@ -41,6 +41,7 @@ ul {
 li {
   padding: 5px;
   line-height: 1.6;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
 }
 
 nav {
@@ -49,8 +50,20 @@ nav {
 
 .table {
   background-color: aquamarine;
+  text-align: start;
+  letter-spacing: 2px;
+  word-spacing: 1px;
 }
 
 #form {
   margin-top: 30px;
+}
+
+input[name="username"] {
+  background-color: green;
+}
+
+td {
+  /* 1st/2nd value is length (shadow distance from text; 3rd value is blur radius (optional) */
+  text-shadow: 10px 10px 1px rgb(234, 138, 138);
 }
